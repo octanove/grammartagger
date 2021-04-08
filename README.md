@@ -90,7 +90,9 @@ $ echo '她住得很远，我想送她回去。' | python scripts/predict.py mod
 
 ## Technical details
 
-GrammarTagger is based on pretrained contextualizers, namely BERT ([Devlin et al. 2019](https://arxiv.org/abs/1810.04805)), and span classification. See [the blog post](https://www.ml4asia.com/grammartagger-a-neural-multilingual-grammar-profiler-for-language-learning/) for more details. We are planning to publish GrammarTagger's technical details as a paper.
+GrammarTagger is based on pretrained contextualizers, namely BERT ([Devlin et al. 2019](https://arxiv.org/abs/1810.04805)), and span classification. See the following paper for more details.
+
+[Hagiwara et al. 2021. GrammarTagger: A Multilingual, Minimally-Supervised Grammar Profiler for Language Education](https://arxiv.org/abs/2104.03190)
 
 ## Pretrained models
 
